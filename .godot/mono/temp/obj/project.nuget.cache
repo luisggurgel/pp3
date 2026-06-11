@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rq8fUqqlf4c7VvKZ1l1YWsrDSpr3NEcdlLoRVhp+p+4q/IxyfqnPQ1sps6D1b1WLwYuZzMHNjT4sIBWLw33hpA==",
+  "success": true,
+  "projectFilePath": "/home/luis/Documents/vscode/pp3/PP3.csproj",
+  "expectedPackageFiles": [
+    "/home/luis/.nuget/packages/godot.sourcegenerators/4.6.3/godot.sourcegenerators.4.6.3.nupkg.sha512",
+    "/home/luis/.nuget/packages/godotsharp/4.6.3/godotsharp.4.6.3.nupkg.sha512",
+    "/home/luis/.nuget/packages/godotsharpeditor/4.6.3/godotsharpeditor.4.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
