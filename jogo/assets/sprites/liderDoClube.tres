@@ -1,0 +1,52 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ds8j0dtf8pimh"]
+
+[ext_resource type="Texture2D" uid="uid://c874w3dw2foy7" path="res://resources/sprites_img/Lider do clube de literatura/Flushed frames/menina animes5.png" id="1_3h3qq"]
+[ext_resource type="Texture2D" uid="uid://urgr0m6mqcau" path="res://resources/sprites_img/Lider do clube de literatura/Flushed frames/menina animes6.png" id="2_dnx0y"]
+[ext_resource type="Texture2D" uid="uid://dm4ojyi33yueq" path="res://resources/sprites_img/Lider do clube de literatura/Flushed frames/menina animes7.png" id="3_r4wxb"]
+[ext_resource type="Texture2D" uid="uid://b22ijsrc7d2ov" path="res://resources/sprites_img/Lider do clube de literatura/Flushed frames/menina animes8.png" id="4_m5vs4"]
+[ext_resource type="Texture2D" uid="uid://dvtxy51sgin4e" path="res://resources/sprites_img/Lider do clube de literatura/Idle frames/menina animes1.png" id="5_1yavw"]
+[ext_resource type="Texture2D" uid="uid://vshuhweqh617" path="res://resources/sprites_img/Lider do clube de literatura/Idle frames/menina animes2.png" id="6_qrenb"]
+[ext_resource type="Texture2D" uid="uid://b0rwfnny18o8s" path="res://resources/sprites_img/Lider do clube de literatura/Worried frames/menina animes3.png" id="7_qifc4"]
+[ext_resource type="Texture2D" uid="uid://bp4wcr7ptraa8" path="res://resources/sprites_img/Lider do clube de literatura/Worried frames/menina animes4.png" id="8_raed3"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_3h3qq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_dnx0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_r4wxb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_m5vs4")
+}],
+"loop": true,
+"name": &"flushed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_1yavw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qrenb")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_qifc4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_raed3")
+}],
+"loop": true,
+"name": &"worried",
+"speed": 5.0
+}]

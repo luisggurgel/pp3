@@ -1,0 +1,61 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cegs7xuyjohjc"]
+
+[ext_resource type="Texture2D" uid="uid://btad4lb1i8rfb" path="res://resources/sprites_img/Lara humana/Disappointed frames/h_lara4.png" id="1_5hs8h"]
+[ext_resource type="Texture2D" uid="uid://djm45ygbk325d" path="res://resources/sprites_img/Lara humana/Disappointed frames/h_lara5.png" id="2_ogu0x"]
+[ext_resource type="Texture2D" uid="uid://c7y5gamby6mw2" path="res://resources/sprites_img/Lara humana/Disappointed frames/h_lara6.png" id="3_65ts2"]
+[ext_resource type="Texture2D" uid="uid://i8byld6ucjct" path="res://resources/sprites_img/Lara humana/Flushed frames/h_lara7.png" id="4_m1r61"]
+[ext_resource type="Texture2D" uid="uid://blnu27tqpe6s5" path="res://resources/sprites_img/Lara humana/Flushed frames/h_lara8.png" id="5_ptl2b"]
+[ext_resource type="Texture2D" uid="uid://ceo1pgmve03h" path="res://resources/sprites_img/Lara humana/Flushed frames/h_lara9.png" id="6_i8ogs"]
+[ext_resource type="Texture2D" uid="uid://5d1bx1nfy26w" path="res://resources/sprites_img/Lara humana/Idle frames/h_lara1.png" id="7_4f0aq"]
+[ext_resource type="Texture2D" uid="uid://bhdnx6pm8dmno" path="res://resources/sprites_img/Lara humana/Idle frames/h_lara2.png" id="8_evxn1"]
+[ext_resource type="Texture2D" uid="uid://bibw0y8m1mbd4" path="res://resources/sprites_img/Lara humana/Idle frames/h_lara3.png" id="9_2uiff"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_5hs8h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ogu0x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_65ts2")
+}],
+"loop": true,
+"name": &"dissapointed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_m1r61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ptl2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_i8ogs")
+}],
+"loop": true,
+"name": &"flushed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_4f0aq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_evxn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_2uiff")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]

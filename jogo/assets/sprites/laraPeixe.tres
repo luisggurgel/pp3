@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bvxhvx3ol2uu8"]
+
+[ext_resource type="Texture2D" uid="uid://60f2ow807b74" path="res://resources/sprites_img/larapeixe/crying frames/lara3.png" id="1_04ddu"]
+[ext_resource type="Texture2D" uid="uid://dgphl4dh4c4kc" path="res://resources/sprites_img/larapeixe/crying frames/lara4.png" id="2_3vyas"]
+[ext_resource type="Texture2D" uid="uid://1aejnl02b260" path="res://resources/sprites_img/larapeixe/idle frames/lara5.png" id="3_sbren"]
+[ext_resource type="Texture2D" uid="uid://pcbqvoi78h6i" path="res://resources/sprites_img/larapeixe/idle frames/lara6.png" id="4_ihwsy"]
+[ext_resource type="Texture2D" uid="uid://c3pj7xehdvwvr" path="res://resources/sprites_img/larapeixe/talking frames/lara1.png" id="5_ogkv0"]
+[ext_resource type="Texture2D" uid="uid://4j5dgmbtrq8e" path="res://resources/sprites_img/larapeixe/talking frames/lara2.png" id="6_j1his"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_sbren")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ihwsy")
+}],
+"loop": true,
+"name": &"ashamed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_3vyas")
+}],
+"loop": true,
+"name": &"cry",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_04ddu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_3vyas")
+}],
+"loop": true,
+"name": &"crying",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_j1his")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_ogkv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_j1his")
+}],
+"loop": true,
+"name": &"talking",
+"speed": 5.0
+}]

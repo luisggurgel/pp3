@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b81t7ycxh6ha4"]
+
+[ext_resource type="Script" uid="uid://b6fl8pvwdpj5v" path="res://scripts/minigame/TutorialScreen.cs" id="1_tutorial"]
+
+[node name="TutorialScreen" type="CanvasLayer"]
+layer = 10
+script = ExtResource("1_tutorial")

@@ -1,0 +1,48 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://btqwaerytp18y"]
+
+[ext_resource type="Texture2D" uid="uid://bf83g677uld0j" path="res://resources/sprites_img/Pai da Lara/Angry frames/paicamarao2.png" id="1_h65t5"]
+[ext_resource type="Texture2D" uid="uid://5n6p7iruor58" path="res://resources/sprites_img/Pai da Lara/Angry frames/paicamarao5.png" id="2_uggs1"]
+[ext_resource type="Texture2D" uid="uid://difq84dumfrem" path="res://resources/sprites_img/Pai da Lara/Idle frames/paicamarao1.png" id="3_va8b2"]
+[ext_resource type="Texture2D" uid="uid://dn2etiv0qqevi" path="res://resources/sprites_img/Pai da Lara/Idle frames/paicamarao3.png" id="4_gjg8i"]
+[ext_resource type="Texture2D" uid="uid://b22v714v8vihv" path="res://resources/sprites_img/Pai da Lara/Worried frames/paicamarao4.png" id="5_j4j2g"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_h65t5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_uggs1")
+}],
+"loop": true,
+"name": &"angry",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_uggs1")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_va8b2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_gjg8i")
+}],
+"loop": true,
+"name": &"talking",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_j4j2g")
+}],
+"loop": true,
+"name": &"worried",
+"speed": 5.0
+}]

@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://bls2nwi65cm7k"]
+
+[ext_resource type="Script" uid="uid://c1x5o5kpufd8a" path="res://scripts/main_scene.cs" id="1_pu3yx"]
+[ext_resource type="Texture2D" uid="uid://b1gtrxdsonbxq" path="res://resources/cenario casa lara.png" id="2_gubc5"]
+[ext_resource type="PackedScene" uid="uid://cpk6o7ef4syrq" path="res://scenes/character.tscn" id="2_pu3yx"]
+[ext_resource type="PackedScene" uid="uid://b1ckt70g8mv2" path="res://scenes/dialog_ui.tscn" id="3_gubc5"]
+
+[node name="MainScene" type="Node2D" unique_id=936909246]
+position = Vector2(0, 4)
+rotation = 1.3089969
+script = ExtResource("1_pu3yx")
+
+[node name="Scenario" type="CanvasLayer" parent="." unique_id=1636383650]
+unique_name_in_owner = true
+layer = -1
+
+[node name="TextureRect" type="TextureRect" parent="Scenario" unique_id=1019872215]
+anchors_preset = -1
+anchor_left = 0.00045832
+anchor_top = -0.0049506295
+anchor_right = 0.998
+anchor_bottom = 1.004716
+offset_left = -0.5279846
+offset_top = 0.20800781
+offset_right = 0.30395508
+offset_bottom = -0.056030273
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_gubc5")
+expand_mode = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="." unique_id=1497905537]
+
+[node name="Control" type="Control" parent="CanvasLayer2" unique_id=463484345]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -16.0
+offset_right = 20.0
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="CharacterSprite" parent="CanvasLayer2/Control" unique_id=1139433981 instance=ExtResource("2_pu3yx")]
+unique_name_in_owner = true
+position = Vector2(0, 56.035)
+
+[node name="DialogUI" parent="CanvasLayer2" unique_id=332610081 instance=ExtResource("3_gubc5")]
+unique_name_in_owner = true
+offset_left = 0.0
+offset_top = 1.0
+offset_right = 0.0
+offset_bottom = 1.0
+
+[node name="Background" type="ColorRect" parent="." unique_id=1278161426]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 2.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.1, 0.1, 0.1, 0.95)
+metadata/_edit_use_anchors_ = true

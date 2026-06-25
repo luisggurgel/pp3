@@ -1,0 +1,85 @@
+[gd_scene format=3 uid="uid://b1ckt70g8mv2"]
+
+[ext_resource type="Theme" uid="uid://brk8uvr5wpclx" path="res://resources/new_theme.tres" id="1_ewnsd"]
+[ext_resource type="Script" uid="uid://he8saew4wabr" path="res://scripts/dialog_ui.cs" id="2_yjvli"]
+
+[node name="DialogUI" type="Control" unique_id=332610081]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -3.0
+offset_right = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_ewnsd")
+script = ExtResource("2_yjvli")
+
+[node name="SpeakerBox" type="Control" parent="." unique_id=907180619]
+custom_minimum_size = Vector2(200, 50)
+anchors_preset = 0
+offset_left = -1.0
+offset_top = 465.0
+offset_right = 199.0
+offset_bottom = 515.0
+
+[node name="Polygon2D" type="Polygon2D" parent="SpeakerBox" unique_id=2051361026]
+color = Color(0.7490196, 0.67058825, 0.2627451, 0.8235294)
+polygon = PackedVector2Array(0, 0, 170, 0, 200, 50, 0, 50)
+
+[node name="SpeakerName" type="RichTextLabel" parent="SpeakerBox" unique_id=674534249]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -84.0
+offset_top = -18.5
+offset_right = 63.0
+offset_bottom = 18.5
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
+text = "Lara"
+
+[node name="DialogBox" type="PanelContainer" parent="." unique_id=364283964]
+top_level = true
+z_index = 10
+custom_minimum_size = Vector2(100, 115)
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.7952222
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -0.3040161
+grow_horizontal = 2
+grow_vertical = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="DialogLine" type="RichTextLabel" parent="DialogBox" unique_id=1228811052]
+unique_name_in_owner = true
+layout_mode = 2
+bbcode_enabled = true
+text = "ASFIOHSFIHASFOIHASOFIHASFIOHO"
+scroll_active = false
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=526649311]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1727069989]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -71.0
+offset_top = -66.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="Polygon2D" type="Polygon2D" parent="CanvasLayer/Control" unique_id=2041722223]
+position = Vector2(16, 16)
+scale = Vector2(0.64, 0.72)
+polygon = PackedVector2Array(0, 0, 50, 25, 0, 50)
