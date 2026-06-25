@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cpk6o7ef4syrq"]
 
-[ext_resource type="SpriteFrames" uid="uid://bvxhvx3ol2uu8" path="res://assets/sprites/laraPeixe.tres" id="1_glpr6"]
 [ext_resource type="Script" uid="uid://cqajh4bmctsoa" path="res://scripts/character_sprite.cs" id="1_rkhd4"]
+[ext_resource type="SpriteFrames" uid="uid://c43qnvl6fxp3e" path="res://assets/sprites/fabio.tres" id="2_rkhd4"]
 
 [node name="CharacterSprite" type="Node2D" unique_id=1139433981]
 script = ExtResource("1_rkhd4")
@@ -10,5 +10,6 @@ script = ExtResource("1_rkhd4")
 unique_name_in_owner = true
 position = Vector2(0, 1.0000038)
 scale = Vector2(0.5798055, 0.5864432)
-sprite_frames = ExtResource("1_glpr6")
-animation = &"crying"
+sprite_frames = ExtResource("2_rkhd4")
+animation = &"idle"
+frame_progress = 0.45646822

@@ -63,7 +63,7 @@ public partial class Character : Node
 				CharacterName = "Fábio",
 				Gender = "male",
 				// Placeholder: reusa um sprite existente até o Fábio ter o dele.
-				SpriteFrames = GD.Load<SpriteFrames>("res://assets/sprites/liderDoClube.tres")
+				SpriteFrames = GD.Load<SpriteFrames>("res://assets/sprites/fabio.tres")
 			}
 		},
 		{

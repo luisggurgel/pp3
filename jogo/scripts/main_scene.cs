@@ -354,7 +354,7 @@ public partial class main_scene : Node2D
 		// Fábio entra em cena pegando a bala do chão.
 		new DialogLine
 		{
-			Speaker = Character.Name.LiderDoClube,
+			Speaker = Character.Name.Fabio,
 			Emotion = Emotion.Idle,
 			Text = "[wave]*Fábio pega uma bala amassada no chão.*[/wave]"
 		},
@@ -367,31 +367,31 @@ public partial class main_scene : Node2D
 		},
 		new DialogLine
 		{
-			Speaker = Character.Name.LiderDoClube,
+			Speaker = Character.Name.Fabio,
 			Emotion = Emotion.Talking,
 			Text = "Claro."
 		},
 		new DialogLine
 		{
-			Speaker = Character.Name.LiderDoClube,
+			Speaker = Character.Name.Fabio,
 			Emotion = Emotion.Talking,
 			Text = "[wave]*Ele abre a bala.*[/wave]"
 		},
 		new DialogLine
 		{
-			Speaker = Character.Name.LiderDoClube,
+			Speaker = Character.Name.Fabio,
 			Emotion = Emotion.Talking,
 			Text = "Uma vez meu tio atropelou um cara e só descobriu porque o corpo ficou preso no carro."
 		},
 		new DialogLine
 		{
-			Speaker = Character.Name.LiderDoClube,
+			Speaker = Character.Name.Fabio,
 			Emotion = Emotion.Talking,
 			Text = "[wave]*Ele coloca a bala na boca.*[/wave]"
 		},
 		new DialogLine
 		{
-			Speaker = Character.Name.LiderDoClube,
+			Speaker = Character.Name.Fabio,
 			Emotion = Emotion.Talking,
 			Text = "Ele dirigiu uns vinte minutos assim."
 		},
@@ -421,19 +421,19 @@ public partial class main_scene : Node2D
 		new DialogLine
 		{
 			Speaker = Character.Name.LaraPeixe,
-			Emotion = Emotion.Talking,
+			Emotion = Emotion.Crying,
 			Text = "Nossa."
 		},
 		new DialogLine
 		{
 			Speaker = Character.Name.LaraPeixe,
-			Emotion = Emotion.Talking,
+			Emotion = Emotion.Cry,
 			Text = "[wave]*Ela senta.*[/wave]"
 		},
 		new DialogLine
 		{
 			Speaker = Character.Name.LaraPeixe,
-			Emotion = Emotion.Talking,
+			Emotion = Emotion.Crying,
 			Text = "Vocês começaram sem mim."
 		},
 	};
