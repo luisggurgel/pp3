@@ -1,8 +1,7 @@
-res://scenes/minigame/RhythmMinigame.tscn
 res://scripts/minigame/FeedbackPopup.cs
 res://scripts/minigame/FoodNote.cs
 res://scripts/minigame/RhythmMinigame.cs
-res://scripts/minigame/GameState.cs
-res://scripts/minigame/TutorialScreen.cs
-res://scripts/minigame/GameOverScreen.cs
 res://scripts/minigame/PauseMenu.cs
+res://scripts/minigame/GameOverScreen.cs
+res://scripts/minigame/TutorialScreen.cs
+res://scripts/minigame/GameState.cs
